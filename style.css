@@ -197,3 +197,7 @@ section {
   place-items: center;
   align-content: center;
 }
+
+.details_image {
+  margin-left: 10px;
+}

@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=VT323);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-color: #4891ff;
+  --light-color: #f4f4f6;
+  --dark-color: #111;
+}
+
+body {
+  background-color: #2cc295;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #05386b;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* NavBar */
+.navbar {
+  background: #2cc295;
+  padding: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-menu ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: #8ee4af;
+}
+
+.navbar ul li:last-child a {
+  margin-left: 10px;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: var(--light-color);
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-light {
+  background: #f4f4f6;
+  color: #111;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+
+
+
+section {
+  vertical-align: middle;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.Addiction_Homepage {
+  font-size: 40px;
+  text-align: Center;
+}
+
+.logo {
+  max-width: 5%;
+}
+
+img {
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.words {
+  color: #fff;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.videos {
+  width: 225px;
+  height: 225px;
+}
